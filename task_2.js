@@ -79,7 +79,7 @@ function deleteOneRecordBasket(arr, goodId) {
             arr.splice(i, 1);
             return arr;
         }
-      }
+    }
 }
 
 
@@ -104,7 +104,7 @@ function calcSumItemsBasket(arr) {
 }
 
 
+console.log(calcSumItemsBasket(basket));
 console.log(createRecordBasket(basket, 6, 25));
 console.log(deleteOneRecordBasket(basket, 1));
 console.log(deleteAllRecordsBasket(basket));
-console.log(calcSumItemsBasket(basket));
